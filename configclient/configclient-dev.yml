@@ -2,15 +2,11 @@ k1:
   111
 k2:
   2
-spring:
-  cloud:
-    config:
-      name: ${spring.application.name}
-      fail-fast: true
-      username: config
-      password: config
-      profile: dev
-      label: master
-      discovery:
-        enabled: true
-        service-id: configserver
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    refresh:
+      enabled: true
