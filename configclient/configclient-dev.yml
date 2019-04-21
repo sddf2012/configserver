@@ -1,16 +1,4 @@
 k1:
-  1
+  12
 k2:
   2
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    refresh:
-      enabled: true
-spring:
-  rabbitmq:
-  host: localhost
-  port: 5672
