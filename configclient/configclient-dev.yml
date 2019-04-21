@@ -1,5 +1,5 @@
 k1:
-  12
+  1
 k2:
   2
 management:
@@ -10,3 +10,7 @@ management:
   endpoint:
     refresh:
       enabled: true
+spring:
+  rabbitmq:
+  host: localhost
+  port: 5672
